@@ -1,14 +1,14 @@
-import axios from 'axios';
+import axios, { type InternalAxiosRequestConfig } from 'axios';
 import type { LoginData, RegisterData, User, FileItem, UpdateFileData } from '../types';
 
-const API_BASE_URL = 'https://file-upload-react-app-0.onrender.com/api';
+const API_BASE_URL = (import.meta as any).env?.VITE_API_BASE_URL || 'http://localhost:5000/api';
 
 const api = axios.create({
   baseURL: API_BASE_URL,
 });
 
 // Add token to requests automatically
-api.interceptors.request.use((config) => {
+api.interceptors.request.use((config: InternalAxiosRequestConfig) => {
   const token = localStorage.getItem('token');
   if (token) {
     config.headers.Authorization = `Bearer ${token}`;
