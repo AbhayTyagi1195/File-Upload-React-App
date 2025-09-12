@@ -1,7 +1,7 @@
 import axios from 'axios';
 import type { LoginData, RegisterData, User, FileItem, UpdateFileData } from '../types';
 
-const API_BASE_URL = 'https://file-upload-react-app-0.onrender.com';
+const API_BASE_URL = 'https://file-upload-react-app-0.onrender.com/api';
 
 const api = axios.create({
   baseURL: API_BASE_URL,
