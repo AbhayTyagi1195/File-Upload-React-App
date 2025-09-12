@@ -165,7 +165,7 @@ const FileList: React.FC<FileListProps> = ({ refreshTrigger }) => {
                 </div>
                 <div style={{ display: 'flex', gap: '5px', flexWrap: 'wrap' }}>
                   <a
-                    href={`http://localhost:5000/uploads/${file.filename}`}
+                    href={`https://file-upload-react-app-0.onrender.com/uploads/${file.filename}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     style={{
