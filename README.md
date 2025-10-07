@@ -26,10 +26,10 @@
 ## 📂 Folder Structure
 
 File-Upload-React-App/<br>
-│── backend/ # Express + TypeScript backend
-│── frontend/ # React + TypeScript frontend
-│── .gitignore
-│── README.md
+│── backend/ # Express + TypeScript backend<br>
+│── frontend/ # React + TypeScript frontend<br>
+│── .gitignore<br>
+│── README.md<br>
 
 ## ⚙️ Installation (Local Setup)
 
