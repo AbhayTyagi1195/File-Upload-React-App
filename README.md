@@ -25,7 +25,7 @@
 
 ## 📂 Folder Structure
 
-File-Upload-React-App/
+File-Upload-React-App/<br>
 │── backend/ # Express + TypeScript backend
 │── frontend/ # React + TypeScript frontend
 │── .gitignore
